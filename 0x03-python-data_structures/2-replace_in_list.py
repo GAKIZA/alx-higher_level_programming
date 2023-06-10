@@ -5,4 +5,4 @@ def replace_in_list(my_list, idx, new_element):
         my_list[idx] = new_element
     else:
         my_list
-    return my_list
+    return (my_list)
