@@ -28,17 +28,20 @@ class Node:
     def next_node(self):
         """Get/set the next_nodeof the node."""
         return (self.__next_node)
+
     @next_node.setter
     def next_node(self, value):
         if not isinstance(value, Node) and value is not None:
             raise TypeError("next_node must be a node object")
         self.__next_node = value
 
+
 class SinglyLinkedList:
     """ Represent a singly linked list. """
 
     def __init__(self):
         self.__head = None
+
     def sorted_insert(self, value):
         """Insert a new node to the singlylinkedlist.
         The node is inserted into the list at the correct
