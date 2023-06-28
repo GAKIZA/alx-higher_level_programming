@@ -2,6 +2,7 @@
 
 """creating a private attribute of a class"""
 
+
 class Square:
     """ Representing a square"""
     def __init__(self, size):
