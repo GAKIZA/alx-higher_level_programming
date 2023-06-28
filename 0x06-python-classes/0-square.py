@@ -2,4 +2,4 @@
 
 """Defining a empty class"""
 class Square:
-    pass
+    """Represent a Square"""
