@@ -20,6 +20,7 @@ class Node:
 
     @data.setter
     def data(self, value):
+        """Raise Exception when not integer valuer is entered"""
         if not isinstance(value, int):
             raise TypeError("data must be an integer")
         self.__data = value
@@ -31,6 +32,7 @@ class Node:
 
     @next_node.setter
     def next_node(self, value):
+        """Get/set data of the next_node"""
         if not isinstance(value, Node) and value is not None:
             raise TypeError("next_node must be a node object")
         self.__next_node = value
@@ -40,6 +42,7 @@ class SinglyLinkedList:
     """ Represent a singly linked list. """
 
     def __init__(self):
+        """Initializing the Singly  linked list."""
         self.__head = None
 
     def sorted_insert(self, value):
