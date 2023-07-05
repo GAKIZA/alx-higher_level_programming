@@ -3,4 +3,5 @@
 
 
 class Rectangle:
+    """defined empty class Rectangle"""
     pass
