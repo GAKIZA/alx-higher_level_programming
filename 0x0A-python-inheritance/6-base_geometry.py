@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Defining an empty class"""
 
+
 class BaseGeometry:
     """Class for Base Geometry"""
     def area(self):
